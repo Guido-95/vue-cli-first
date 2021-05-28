@@ -34,7 +34,7 @@ export default {
   text-align: center;
   padding-top: 20px;
   height: 100vh;
-  background-color: rgba(0, 0, 0, 0.9);
+  background-color: black;
   
 }
 
