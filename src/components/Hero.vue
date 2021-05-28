@@ -6,7 +6,7 @@
                 <div class="pugno">
                     <img src="../assets/pugno.png" alt="">
                 </div>
-                <span class="Acquista"> Acquistalo subito </span> 
+                <span class="acquista"> Acquistalo subito </span> 
             </div>
     </div>
    
@@ -57,7 +57,7 @@ export default {
         margin-left: 70px; 
     }
 
-    .Acquista{
+    .acquista{
         position: relative;
         padding: 20px;
         cursor: pointer;
@@ -66,7 +66,8 @@ export default {
         display: inline-block;
     }
 
-    .pugno{
+    .pugno {
+        
         position: absolute;
         top: -79px;
         left: -350px;
@@ -83,7 +84,7 @@ export default {
         opacity: 1;
     }
 
-    .Acquista:hover {
+    .acquista:hover {
         color: teal;
         margin-left: 58px;
         transition: ease-in 1s;
