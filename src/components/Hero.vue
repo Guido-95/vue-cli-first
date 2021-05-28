@@ -14,13 +14,13 @@ export default {
 
 <style>
 
-    .jumbotron{
+    .jumbotron {
         width: 100%;
         height: 700px;
-        font-size: 0;
-        
+        font-size: 0;   
     }
-    img{
+
+    img {
         font-size: 0;
         width: 60%;
         height: 100%;
