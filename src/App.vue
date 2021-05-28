@@ -5,7 +5,7 @@
  
     <Hero/>
     
-    
+   
   </div>
 </template>
 
@@ -32,7 +32,7 @@ export default {
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   text-align: center;
-  padding-top: 20px;
+  
   height: 100vh;
   background-color: black;
   
