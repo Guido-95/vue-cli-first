@@ -2,11 +2,11 @@
     <div class="jumbotron">
         <img src="../assets/copertina.jpg" alt="Copertina"> 
 
-            <div class="acquista">
+            <div class="container-scritta-pugno">
                 <div class="pugno">
                     <img src="../assets/pugno.png" alt="">
                 </div>
-                <span class="animazione"> Acquistalo subito </span> 
+                <span class="Acquista"> Acquistalo subito </span> 
             </div>
     </div>
    
@@ -16,6 +16,7 @@
 export default {
     name: 'Hero'
 }
+
 </script>
 
 <style scoped>
@@ -26,15 +27,14 @@ export default {
         align-items: center;
         height: 500px;
         position: relative;
-        margin: auto;
+        margin: 100px auto;
         text-align: left;
-        border: 2px solid white;
-        color: white;
         background-position: 900px 13px;
         background-repeat: no-repeat;
         background-size: 853px 575px;
         transform: rotate(8deg);
         background-image: url('../assets/jumbotron.png');
+        color: white;
     }
 
     .jumbotron > img {
@@ -52,14 +52,12 @@ export default {
         
     }
 
-    .acquista{
-        
+    .container-scritta-pugno{
         transform: rotate(-8deg);
-        margin-left: 70px;
-        
+        margin-left: 70px; 
     }
 
-    .animazione{
+    .Acquista{
         position: relative;
         padding: 20px;
         cursor: pointer;
@@ -78,24 +76,18 @@ export default {
         width: 100%;
     }
     
-     .acquista:hover .pugno{
+     .container-scritta-pugno:hover .pugno{
         top: -80px;
         left: -235px;
         transition: 1s;
         opacity: 1;
     }
 
-    .animazione:hover {
+    .Acquista:hover {
         color: teal;
         margin-left: 58px;
         transition: ease-in 1s;
-        background-color: yellow;
-        
+        background-color: yellow; 
     }
-
- 
-    
-
-
 
 </style>

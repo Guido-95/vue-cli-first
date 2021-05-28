@@ -1,11 +1,8 @@
 <template>
   <div id="app">
-    
     <Title/>
  
     <Hero/>
-    
-   
   </div>
 </template>
 
@@ -29,13 +26,16 @@ export default {
   margin: 0;
   padding: 0;
 }
+
+body {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   text-align: center;
-  
-  height: 100vh;
-  background-color: black;
-  
+  width: 100%;
+  margin-top: 40px;
 }
 
 
