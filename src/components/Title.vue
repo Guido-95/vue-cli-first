@@ -8,7 +8,7 @@ export default {
 }
 </script>
 
-<style>
+<style scoped>
     h1 {
         width: 700px;
         padding: 25px;

@@ -12,12 +12,13 @@ export default {
 }
 </script>
 
-<style>
+<style scoped>
 
     .jumbotron {
         width: 100%;
         height: 700px;
-        font-size: 0;   
+        font-size: 0;
+        background-color:yellow;   
     }
 
     img {

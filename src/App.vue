@@ -4,7 +4,7 @@
     <Title/>
  
     <Hero/>
-  
+    
     
   </div>
 </template>
